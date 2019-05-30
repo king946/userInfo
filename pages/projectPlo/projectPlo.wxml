@@ -1,0 +1,33 @@
+
+<swiper class="card-swiper {{DotStyle?'square-dot':'round-dot'}}" indicator-dots="true" circular="true" autoplay="true" interval="5000" duration="500" bindchange="cardSwiper" indicator-color="#8799a3" indicator-active-color="#0081ff">
+  <swiper-item wx:for="{{swiperList}}" wx:key class="{{cardCur==index?'cur':''}}">
+    <view class="swiper-item">
+      <image src="{{item.url}}" mode="aspectFill" wx:if="{{item.type=='image'}}"></image>
+      <video src="{{item.url}}" autoplay loop muted show-play-btn="{{false}}" controls="{{false}}" objectFit="cover" wx:if="{{item.type=='video'}}"></video>
+    </view>
+  </swiper-item>
+</swiper>
+
+<view class="cu-bar bg-white margin-top">
+  <view class="action">
+    <text class="cuIcon-title text-pink"></text> 项目介绍
+  </view>
+</view>
+
+<view class="cu-bar bg-white margin-top">
+  <view class="action" style="font-size:12px;text-indent:10px;padding:10px 0px;">
+  <text>
+   PLOUTOZ数字货币平台是EOS公链衍生品市场，用于小币风险对冲平台，基于虚拟货币完成期货市场
+\n
+我主要负责产品的前端页面实现，交互效果，实现首页动画效果
+\n
+根据后端提供接口实现接口对接，完成产品功能的实现，项目打包上线，版本控制
+\n
+通过WebSocket实时推送数据，实时渲染页面数据，实时计算预估保证金、手续费、用户余额等
+\n
+项目前端使用angular6框架、TypeScript、Bootstrap、MaterialUI 库
+
+  </text>
+   
+  </view>
+</view>

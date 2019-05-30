@@ -1,0 +1,45 @@
+<view class="cu-bar bg-white margin-top">
+  <view class="action">
+    <text class="cuIcon-title text-mauve"></text> 求职意向：Web前端开发
+  </view>
+</view>
+<view class="cu-bar bg-white">
+  <view class="action">
+    <text class="cuIcon-title text-purple"></text> 张鹏*
+  </view>
+</view>
+<view class="cu-bar bg-white">
+  <view class="action">
+    <text class="cuIcon-title text-pink"></text> 1994-07-1*
+  </view>
+</view>
+<view class="cu-bar bg-white">
+  <view class="action">
+    <text class="cuIcon-title text-green"></text> 136****8083
+  </view>
+</view>
+<view class="cu-bar bg-white">
+  <view class="action">
+    <text class="cuIcon-title text-olive"></text> 142419***@qq.com
+  </view>
+</view>
+<view class="cu-bar bg-white margin-top">
+  <view class="action" style="font-size:12px;text-indent:10px;padding:10px 0px;">
+
+    <text>
+    1、熟练掌握HTML5、CSS3、Bootstrap、jQuery 、JavaScript、Ajax等前端相关技术
+    \n
+    2、熟练掌握angular6 前端框架，熟练bignumberJs，熟悉vueJs、vue2.0脚手架
+    \n
+    3、熟练使用webStorm、Git版本控制、微信小程序开发工具
+    \n
+    4、有小程序开发经验
+    \n
+    5、有电商类项目开发经验
+    \n
+    6、开发过金融类平台，区块链
+    </text>
+
+
+  </view>
+</view>

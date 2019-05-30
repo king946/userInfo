@@ -1,0 +1,35 @@
+<view class="cu-list menu">
+  <navigator style="margin:5px 0px;" class="cu-item" url="../projectPlo/projectPlo">
+    <view class="content" bindtap="goGeek">
+        <image src="/image/plo.jpg" class="png" mode="aspectFit"></image>
+        <text class="text-grey">PLOUTOZ数字货币平台</text>
+    </view>
+    <view class="action">
+      <view class="cu-tag round bg-orange light">angular6</view>
+      <view class="cu-tag round bg-olive light">typeScript</view>
+    </view>
+  </navigator>
+
+  <navigator style="margin:5px 0px;" class="cu-item" url="../projectYunker/projectYunker">
+    <view class="content">
+        <image src="/image/yunker.jpg" class="png" mode="aspectFit"></image>
+        <text class="text-grey">爱波瑞测评系统</text>
+    </view>
+    <view class="action">
+      <view class="cu-tag round bg-orange light">jQuery</view>
+      <view class="cu-tag round bg-olive light">VueJs</view>
+    </view>
+  </navigator>
+
+  <navigator style="margin:5px 0px;" class="cu-item" url="../projectGeek/projectGeek">
+    <view class="content">
+        <image src="/image/geek.jpg" class="png" mode="aspectFit"></image>
+        <text class="text-grey">GeekMRO工业超市</text>
+    </view>
+    <view class="action">
+      <view class="cu-tag round bg-orange light">jQuery</view>
+      <view class="cu-tag round bg-blue light">html5+css3</view>
+    </view>
+  </navigator>
+  
+</view>

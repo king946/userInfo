@@ -1,0 +1,19 @@
+<view style='padding-top:3px;'></view>
+<swiper class="screen-swiper {{DotStyle?'square-dot':'round-dot'}}" indicator-dots="true" circular="true" autoplay="true" interval="5000" duration="500">
+  <swiper-item wx:for="{{swiperList}}" wx:key>
+    <image src="{{item.url}}" mode="aspectFill" wx:if="{{item.type=='image'}}"></image>
+    <video src="{{item.url}}" autoplay loop muted show-play-btn="{{false}}" controls="{{false}}" objectFit="cover" wx:if="{{item.type=='video'}}"></video>
+  </swiper-item>
+</swiper>
+
+<view class="cu-bar bg-white margin-top">
+  <view class="action">
+    <text class="cuIcon-title text-pink"></text> 项目介绍
+  </view>
+</view>
+
+<view class="cu-bar bg-white margin-top">
+  <view class="action" style="font-size:12px;text-indent:10px;padding:10px 0px;">
+    此项目为二次开发，为蒙古国定制3M防护用品，个人防护用品，提供了可以下单，查看商品详情，查看物流等功能的电商平台，前端页面出力是维护，添加页面修改页面，后台也负责了一点清关，人工追踪订单等功能。
+  </view>
+</view>

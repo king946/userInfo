@@ -1,0 +1,61 @@
+<view class="cu-timeline">
+  <view class="cu-time">2018.08-至今</view>
+  <view class="cu-item text-green cuIcon-evaluate_fill">
+    <view class="content bg-green shadow-blur">
+      <text>北京谷壳宝科技有限公司</text> Web前端工程师
+    </view>
+  </view>
+  <view class="cu-item text-cyan">
+    <view class="bg-cyan content">
+      <text>Web平台--</text> PLOUTOZ数字货币平台
+    </view>
+  </view>
+  <view class="cu-item text-cyan">
+    <view class="bg-cyan content">
+      <text>Web展示网站--</text> PLO官网
+    </view>
+  </view>
+</view>
+
+<view class="cu-timeline">
+  <view class="cu-time">2018.03-2018.08</view>
+  <view class="cu-item text-green cuIcon-evaluate_fill">
+    <view class="content bg-green shadow-blur">
+      <text>云客科技（天津）有限公司</text> Web前端工程师
+    </view>
+  </view>
+  <view class="cu-item text-grey">
+    <view class="bg-grey content">
+      <text>Web平台--</text> 爱波瑞测评系统
+    </view>
+  </view>
+  <view class="cu-item text-grey">
+    <view class="bg-grey content">
+      <text>Web展示网站--</text> 云客官网
+    </view>
+  </view>
+  <view class="cu-item text-grey">
+    <view class="bg-grey content">
+      <text>小程序--</text> 云客连接平台
+    </view>
+  </view>
+</view>
+
+<view class="cu-timeline">
+  <view class="cu-time">2016.08-2018.01</view>
+  <view class="cu-item text-green cuIcon-evaluate_fill">
+    <view class="content bg-green shadow-blur">
+      <text>内蒙古极客互联科技有限公司</text> Web前端工程师
+    </view>
+  </view>
+  <view class="cu-item text-grey">
+    <view class="bg-grey content">
+      <text>Web平台--</text> MRO跨境工业用品超市
+    </view>
+  </view>
+  <view class="cu-item text-grey">
+    <view class="bg-grey content">
+      <text>Web展示网站--</text> 极客官网
+    </view>
+  </view>
+</view>
