@@ -15,27 +15,27 @@
     "navigationBarTitleText": "KING-BOY",
     "navigationBarTextStyle": "black"
   },
- "tabBar": {
-  "list": [
-    {
-      "pagePath": "pages/resume/resume",
-      "text": "简介",
-      "iconPath": "image/index.png",
-      "selectedIconPath": "image/index1.png"
-    },
-    {
-      "pagePath": "pages/project/project",
-      "text": "项目",
-      "iconPath": "image/project.png",
-      "selectedIconPath": "image/project1.png"
-    },
-    {
-      "pagePath": "pages/info/info",
-      "text": "我的",
-      "iconPath": "image/info.png",
-      "selectedIconPath": "image/info1.png"
-    }
-  ]
-}
-  
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/resume/resume",
+        "text": "简介",
+        "iconPath": "image/index.png",
+        "selectedIconPath": "image/index1.png"
+      },
+      {
+        "pagePath": "pages/project/project",
+        "text": "项目",
+        "iconPath": "image/project.png",
+        "selectedIconPath": "image/project1.png"
+      },
+      {
+        "pagePath": "pages/info/info",
+        "text": "我的",
+        "iconPath": "image/info.png",
+        "selectedIconPath": "image/info1.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap70.json"
 }
